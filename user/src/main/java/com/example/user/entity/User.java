@@ -30,4 +30,18 @@ public class User {
 
     @TableField("sex")
     private int sex;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId='" + userId + '\'' +
+                ", userName='" + userName + '\'' +
+                ", loginName='" + loginName + '\'' +
+                ", password='" + password + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", age='" + age + '\'' +
+                ", sex=" + sex +
+                '}';
+    }
 }

@@ -62,6 +62,18 @@
             <artifactId>druid</artifactId>
             <version>${druid}</version>
         </dependency>
+        <dependency>
+            <groupId>com.liang.framework</groupId>
+            <artifactId>spring-mq-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.liang.framework</groupId>
+            <artifactId>spring-mq-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
 
 
     </dependencies>
