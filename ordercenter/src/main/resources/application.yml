@@ -34,3 +34,8 @@ rabbit:
     port: 5672
     username: liang
     password: 123456
+
+rocketmq:
+  producer:
+    group: producer_my_test_message
+  name-server: 127.0.0.1:9876

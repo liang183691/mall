@@ -17,3 +17,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1:8081/eureka/
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  consumer:
+    maxReconsumeTimes: 3

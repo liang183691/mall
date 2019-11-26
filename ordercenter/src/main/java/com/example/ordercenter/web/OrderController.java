@@ -26,4 +26,10 @@ public class OrderController {
         return ResponseResult.success(order);
     }
 
+    @PostMapping("/addOrder1")
+    public ResponseResult addOrder1(@RequestBody Order order){
+        orderService.addOrder1(order);
+        return ResponseResult.success(order);
+    }
+
 }
