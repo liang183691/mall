@@ -17,7 +17,7 @@
     <properties>
         <java.version>1.8</java.version>
         <mybatis-plus-boot-starter.version>2.3</mybatis-plus-boot-starter.version>
-        <mysql-connector>5.1.39</mysql-connector>
+        <mysql-connector>8.0.16</mysql-connector>
         <druid>1.0.18</druid>
         <spring-boot-starter-redis-version>1.3.2.RELEASE</spring-boot-starter-redis-version>
     </properties>
